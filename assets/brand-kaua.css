@@ -1,0 +1,12 @@
+/* Mini SOC Lab | by Kauã — assinatura pessoal do projeto */
+.v3-page .v3-brand .brand-type small{display:block;margin-top:5px;color:#bad3e8;font-size:9px;font-weight:700;letter-spacing:.075em;white-space:nowrap;text-transform:none}
+.v3-page .v3-brand .brand-type small::first-letter{color:#87d9ff}
+.v3-page .v3-brand .brand-separator{color:#57c4f8;margin:0 5px}
+.v3-page .v3-header .brand-type strong{letter-spacing:-.045em}
+.v3-page .v3-footer .footer-byline{display:block;margin:5px 0 0;font-family:var(--sans);font-size:12px;letter-spacing:.04em;font-weight:600;color:#93ddff}
+.v3-page .v3-footer .footer-about{padding-top:23px}
+.v3-page .v3-footer .footer-bottom span:first-child{color:#9db9ce}
+.v3-page .v3-about-label strong{color:#e8f9ff}
+.v3-page .v3-about-label span{color:#87d8ff}
+@media(max-width:680px){.v3-page .v3-brand .brand-type small{font-size:8px;letter-spacing:.03em}.v3-page .v3-brand{min-width:0;gap:9px}.v3-page .v3-brand .brand-type strong{font-size:16px}.v3-page .v3-brand .brand-separator{margin:0 2px}}
+@media(max-width:380px){.v3-page .v3-brand .brand-type small{display:block;font-size:7px}.v3-page .v3-logo{width:38px;height:38px}}

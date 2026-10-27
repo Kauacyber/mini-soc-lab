@@ -1,0 +1,86 @@
+/* MINI SOC LAB — Midnight Edition. Black graphite paired with electric blue.
+   Presentation-only update: backend, tracking scripts, and content untouched. */
+:root{--bg:#05080e;--panel:#0a101a;--panel2:#101b2a;--line:#253c59;--blue:#67caff;--sand:#65d7f9;--ink:#f3f8ff;--muted:#bbcee0;--subtle:#95b0c8}
+body.v3-page{
+  background:
+    radial-gradient(ellipse 760px 490px at 85% 14%,rgba(0,91,170,.08),transparent 74%),
+    #05080e;
+  color:#eff7ff;
+}
+.v3-page .site-header,.v3-header{
+  background:rgba(3,7,13,.95);
+  border-bottom:1px solid rgba(86,172,239,.27);
+  box-shadow:0 8px 36px rgba(0,0,0,.22);
+}
+.v3-header .nav .nav-cta{background:linear-gradient(120deg,#32b9f3,#0b86d4);border-color:#65cbff;box-shadow:0 8px 26px rgba(12,144,245,.22)}
+.v3-page .v3-kicker,.v3-page .v3-eyebrow{color:#86d9ff}
+.v3-page h1 em,.v3-page h2 em{color:#65ceff}
+.v3-page .v3-section-head p,.v3-page .v3-guide-section p,.v3-page .v3-about-story p{color:#c0d3e4}
+/* Home: near-black intervals add rhythm and let bright visuals breathe */
+.v3-page .v3-hero{
+  background:
+    radial-gradient(circle at 75% 42%,rgba(27,112,196,.18),transparent 37%),
+    radial-gradient(ellipse at 15% 82%,rgba(2,52,102,.15),transparent 50%),
+    linear-gradient(145deg,#03060b 7%,#07101d 59%,#03070d);
+  border-bottom:1px solid #1c3856;
+}
+.v3-page .v3-hero-scene .v3-scene-photo{border-color:#33678a;box-shadow:0 25px 80px #000a}
+.v3-page .v3-trust{background:linear-gradient(90deg,#040810,#0b1725,#040810);border-top-color:#1b3a59;border-bottom:1px solid #203b56}
+.v3-page #explorar.v3-section{background:linear-gradient(180deg,#050a11,#070e18 58%,#040810)}
+.v3-page .v3-feature{background:radial-gradient(circle at 95% 5%,rgba(42,155,245,.18),transparent 45%),linear-gradient(150deg,#0b1422,#070b13 77%);border-color:#325571;box-shadow:0 16px 43px rgba(0,0,0,.21)}
+.v3-page .v3-feature.feat-soc{background:radial-gradient(circle at 95% 4%,rgba(99,86,207,.20),transparent 47%),linear-gradient(150deg,#101322,#080b15)}
+.v3-page .v3-feature.feat-story{background:radial-gradient(circle at 95% 4%,rgba(20,160,163,.16),transparent 47%),linear-gradient(150deg,#0d171e,#070d12)}
+.v3-page .v3-feature:hover{border-color:#6fd8ff;box-shadow:0 20px 52px #000a}
+.v3-page .v3-dark-band{background:linear-gradient(135deg,#03080e,#081829 58%,#03080d);border-block:1px solid #233d5a}
+.v3-page #leituras,.v3-page #trilhas{background:linear-gradient(180deg,#060c14,#050910)}
+.v3-page .article-card{background:linear-gradient(155deg,#0e1a29,#080d15 75%);border:1px solid #2a4e6a;border-radius:13px;box-shadow:0 15px 35px rgba(0,0,0,.17)}
+.v3-page .article-card:hover{background:linear-gradient(155deg,#152f48,#09131f 75%);border-color:#68c8f8;box-shadow:0 15px 43px rgba(0,0,0,.4)}
+.v3-page .v3-quote{background:linear-gradient(125deg,#05080f,#09192c 65%,#03070d);border-block-color:#284769}
+.v3-page .v3-final-cta{background:radial-gradient(ellipse at 80% 60%,rgba(29,124,190,.08),transparent 65%)}
+/* Library: black browsing surface with cool-blue filters */
+.v3-page .v3-subhero{background:radial-gradient(circle at 75% 40%,rgba(37,136,211,.13),transparent 30%),linear-gradient(180deg,#05080e,#0a1522);border-bottom:1px solid #24435e}
+.v3-page .v3-library{background:linear-gradient(180deg,#070c14,#05090f);padding-bottom:95px}
+.v3-page .search-wrap input,.v3-page .v3-search-input{background:#090e17;border-color:#315674;color:#f3fbff}
+.v3-page .filter-chip{background:#0c1724;border-color:#294f6c;color:#c0d4e6}
+.v3-page .filter-chip:hover,.v3-page .filter-chip.active{background:#188cce;color:#f7fcff;border-color:#59c5fd}
+/* Legacy article pages: black canvas + controlled azure highlight. */
+.v3-page.v3-legacy-article{background:#05080e}
+.v3-legacy-article .article-breadcrumb{color:#a7bfd4}
+.v3-legacy-article .article-hero{
+  background:
+    radial-gradient(circle at 84% 48%,rgba(23,107,177,.23),transparent 28%),
+    linear-gradient(110deg,#04070d 5%,#091625 70%,#05080e);
+  border-bottom:1px solid #284a68;
+}
+.v3-legacy-article .article-hero-art{background:radial-gradient(circle at 65% 40%,#16446b,#0b1a2a 55%,#050a11 95%);border-color:#3e77a2}
+.v3-legacy-article .article-layout{background:transparent}
+.v3-legacy-article .toc-box{background:linear-gradient(145deg,#070b12,#0a1828);border-color:#244d70}
+.v3-legacy-article .back-sidebar{background:#080f19;border-color:#326080}
+.v3-legacy-article .article-body .opening{background:linear-gradient(90deg,#0b2235,#060c15);border-color:#245a7a;border-left-color:#55befe}
+.v3-legacy-article .article-section{
+  background:linear-gradient(115deg,#080e17,#0c1928 55%,#070d16);
+  border:1px solid #223f5a;
+  border-left:3px solid #2e7fb0;
+  box-shadow:0 10px 26px rgba(0,0,0,.16);
+}
+.v3-legacy-article .article-section:nth-of-type(even){background:linear-gradient(120deg,#070c14,#0b1725 80%,#071120);border-left-color:#56c1e6}
+.v3-legacy-article .article-section h2{color:#f4faff}
+.v3-legacy-article .sources-block{background:#070e17;border-color:#254966}
+.v3-legacy-article .related-area{background:linear-gradient(180deg,#03070c,#08121e);border-top:1px solid #244461}
+.v3-legacy-article .related-area .article-card{background:linear-gradient(145deg,#0e1c2d,#070d16)}
+/* About page: black gallery, dark panels, image visually prominent */
+.v3-page .v3-about-hero{background:radial-gradient(circle at 72% 30%,rgba(23,110,195,.15),transparent 37%),linear-gradient(140deg,#03070c,#0a1625 70%,#04080e)}
+.v3-page .v3-about-stage{border-color:#427eaa;box-shadow:0 22px 70px rgba(0,0,0,.62)}
+.v3-page .v3-about-story{background:radial-gradient(circle at 25% 30%,rgba(44,116,186,.07),transparent 35%),linear-gradient(180deg,#060b12,#090f18)}
+.v3-page .v3-about-stats{background:linear-gradient(90deg,#070c14,#101d2d,#070c14)}
+.v3-page .v3-process{background:linear-gradient(165deg,#03070d,#071421 45%,#02060b);border-block:1px solid #284967}
+.v3-page .v3-process-grid>div{background:radial-gradient(circle at 95% 4%,rgba(65,165,235,.15),transparent 40%),linear-gradient(140deg,#0c1725,#050910 75%);border-color:#2a5573}
+.v3-page .v3-process-grid>div:hover{border-color:#66cfff}
+.v3-page .v3-about-outro{background:radial-gradient(circle at 50% 0,rgba(29,124,207,.17),transparent 40%),linear-gradient(145deg,#060b12,#0d1e31,#04090f);border-color:#316081}
+/* Footer in glossy black, blue markers */
+.v3-page .v3-footer{background:linear-gradient(150deg,#010408,#060d18 60%,#02050a);border-top:1px solid #2a4d69}
+.v3-page .v3-footer .footer-about{background:linear-gradient(145deg,#0a1726,#040911);border-color:#2d5878}
+.v3-page .v3-footer .footer-top .footer-label{color:#90d9ff}
+.v3-page .v3-footer .footer-bottom{border-top-color:#26455e;color:#96aec4}
+@media(max-width:950px){.v3-page .v3-header .nav{background:#050b13}}
+@media(prefers-reduced-motion:reduce){.v3-page *, .v3-page *:before,.v3-page *:after{transition:none!important}}
