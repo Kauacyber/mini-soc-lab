@@ -1,0 +1,20 @@
+/* Harmonization for earlier, preserved technical articles */
+body.atelier-legacy{background:#0b0c0e;color:#f0eee9}
+.atelier-legacy .site-header{background:#0c0d0f;border-bottom-color:#3e3b36}
+.atelier-legacy .nav .nav-cta,.atelier-legacy .btn-primary{background:#eeb27d;color:#17120e;border-color:#eeb27d}
+.atelier-legacy .v3-legacy-article .article-section,.atelier-legacy .article-section{background:linear-gradient(125deg,#181819,#121415);border-top-color:#5b5248}
+.atelier-legacy .article-section h2{color:#ffeddc}
+.atelier-legacy .article-heading h1 em,.atelier-legacy .eyebrow,.atelier-legacy .sidebar-label,.atelier-legacy .section-count{color:#ffc09b}
+.atelier-legacy .article-hero-art{background:linear-gradient(145deg,#493429,#222324)!important;border-color:#956d4b!important}
+.atelier-legacy .art-giant{color:#ffca9c!important}
+.atelier-legacy .toc-box{border-color:#625547!important;background:#1b1918!important}
+.atelier-legacy .article-body .opening{border-left-color:#d9f283!important;border-color:#67654a!important;background:#24211d!important}
+.atelier-legacy .related-area{background:#1b1a18!important}
+.atelier-legacy .related-area .article-card{background:#23201d!important;border-color:#605345!important}
+.atelier-legacy .related-area .article-card:hover{border-color:#edb178!important}
+.atelier-legacy .site-footer{background:#151514}
+.atelier-legacy .v3-footer .footer-seal,.atelier-legacy .v3-footer .footer-label{color:#dbef8b!important}
+.atelier-legacy .period{color:#ffb886}
+.legacy-notice{display:flex;flex-wrap:wrap;justify-content:space-between;gap:15px;align-items:center;padding:12px 5vw;background:#d5f782;color:#11130f;font:750 12px 'Segoe UI',Arial,sans-serif;position:relative;z-index:55}
+.legacy-notice strong{font-weight:550}.legacy-pills{display:flex;gap:15px;flex-wrap:wrap}.legacy-pills a,.legacy-notice>a{font-size:11px;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:650px){.legacy-notice{padding:12px 20px}.legacy-pills{gap:10px}.legacy-pills a{font-size:10px}}

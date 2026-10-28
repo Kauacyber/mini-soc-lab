@@ -12,5 +12,22 @@
  const search=document.getElementById('glossary-search');
  if(search){const terms=[...document.querySelectorAll('.v3-term')],empty=document.getElementById('glossary-empty');const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();search.addEventListener('input',()=>{let count=0,q=normalize(search.value.trim());terms.forEach(t=>{let show=normalize(t.dataset.term).includes(q);t.hidden=!show;if(show)count++;});empty.hidden=count!==0;});}
  const opt=document.getElementById('privacy-optout'),status=document.getElementById('privacy-status');
- if(opt){const render=()=>{let off=false;try{off=localStorage.getItem('mini_soc_ignore')==='1'}catch{}opt.textContent=off?'Reativar telemetria de página':'Desativar telemetria de página';status.textContent=off?'Preferência local: telemetria de página desativada neste navegador.':'Preferência local: telemetria de página permitida, quando o Worker estiver configurado.';};opt.addEventListener('click',()=>{try{if(localStorage.getItem('mini_soc_ignore')==='1'){localStorage.removeItem('mini_soc_ignore');}else{localStorage.setItem('mini_soc_ignore','1');}render();}catch{status.textContent='Seu navegador bloqueou o armazenamento local. A preferência não pôde ser salva.';}});render();}
+ if(opt){
+  const render=()=>{
+   const accepted=window.miniSocConsent?.get()==='yes'&&localStorage.getItem('mini_soc_ignore')!=='1';
+   opt.textContent=accepted?'Desativar análise de visitas':'Permitir análise de visitas';
+   status.textContent=accepted?'Você permitiu a análise de visitas neste navegador.':'Nenhuma telemetria de visitas é enviada sem sua permissão.';
+  };
+  opt.addEventListener('click',()=>{
+   try{
+    const accepted=window.miniSocConsent?.get()==='yes'&&localStorage.getItem('mini_soc_ignore')!=='1';
+    if(accepted){window.miniSocConsent.set('no');}
+    else{localStorage.removeItem('mini_soc_ignore');window.miniSocConsent?.set('yes');location.reload();}
+    render();
+   }catch{status.textContent='Não foi possível salvar a preferência neste navegador.';}
+  });
+  document.addEventListener('mini-soc-consent-changed',render);
+  render();
+ }
+
 })();

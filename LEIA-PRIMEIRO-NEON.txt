@@ -1,0 +1,15 @@
+MINI SOC LAB | by Kauã — NEON EDITION
+
+Projeto estático completo com 25 páginas.
+
+ABRA index.html no navegador para pré-visualizar.
+A pasta assets/ e artigos/ deve permanecer ao lado de index.html.
+
+Preservamos assets/soc-tracker.js da versão Atelier. NÃO modificamos o Cloudflare Worker, D1 ou o Telegram.
+Não publique ainda: teste links, aparência e telemetria no ambiente correto.
+
+MUDANÇAS: assets/neon-edition.css (paleta, componentes, responsividade e design), assets/neon-edition.js (progresso de rolagem, efeitos de interação).
+
+OBS: fotografias e imagens já existentes no projeto foram preservadas, não criadas por terceiros.
+
+CLICK EFFECTS: animações de botões, cartões, feedback e transição de páginas adicionadas em assets/click-effects.css e .js. Respeita movimento reduzido. Não altera soc-tracker.js.
